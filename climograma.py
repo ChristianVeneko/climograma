@@ -14,7 +14,7 @@ def solicitarDatos(array, string):
         j = str(j)
         while True:
             try:
-                array[i] = int(input('Ingresa la ' + string + ' N°: ' + j + ': '))
+                array[i] = float(input('Ingresa la ' + string + ' N°: ' + j + ': '))
                 break
             except ValueError:
                 print('Error!!! Ingresa una ' + string + ' Valida')
