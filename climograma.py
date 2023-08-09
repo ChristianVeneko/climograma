@@ -39,7 +39,7 @@ ax1.axhline(y=sum(precipitaciones)/len(precipitaciones), linestyle='--', color='
 ax2 = ax1.twinx()
 
 # Graficar la curva de temperaturas
-ax2.plot(meses, temperaturas, color='r')
+ax2.plot(meses, temperaturas, color='r', linestyle='solid')
 ax2.set_xlabel('Mes')
 ax2.set_ylabel('Temperatura (°C)', color='r')
 ax2.tick_params(axis='y', labelcolor='r')
